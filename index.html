@@ -70,6 +70,45 @@
       font-weight: bold;
       border-radius: 5px;
     }
+
+    /* three-columns*/
+    .three-columns {
+      text-align: center;
+      font-size: 0;
+      padding: 35px 0 20px;
+
+    }
+
+    .three-columns .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .three-columns .padding {
+      padding: 15px;
+    }
+
+    .three-columns .content {
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    .two-columns.last {
+      padding: 35px 0;
+
+    }
+
+    .two-columns .padding {
+      padding: 15px;
+    }
+
+    .two-columns .content {
+      font-size: 20px;
+      line-height: 20px;
+      text-align: left;
+    }
   </style>
 </head>
 
@@ -208,7 +247,7 @@
 
                         <tr>
                           <td style="padding: 10px;">
-                            <p style="font-weight: bold; font-size:15px ">Ecommerce</p>
+                            <p style="font-weight: 800; font-size:15px ">Ecommerce</p>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                               aliquam obcaecati quia At iste nisi fugit.
                             </p>
@@ -242,7 +281,7 @@
 
                         <tr>
                           <td style="padding: 10px;">
-                            <p style="font-weight: bold; font-size:15px ">Ecommerce</p>
+                            <p style="font-weight: 800; font-size:15px ">Ecommerce</p>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                               aliquam obcaecati quia At iste nisi fugit.
                             </p>
@@ -279,7 +318,7 @@
 
                         <tr>
                           <td style="padding: 10px;">
-                            <p style="font-weight: bold; font-size:15px ">Web Design</p>
+                            <p style="font-weight: 800; font-size:15px ">Web Design</p>
                             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                               aliquam obcaecati quia At iste nisi fugit.
                             </p>
@@ -300,44 +339,134 @@
         </td>
       </tr>
 
+      <!--BLUE BORDER-->
+      <tr>
+        <td height="4" style="background-color: #289dcf;"></td>
+      </tr>
 
+      <!---TWO COLUMN SECTION-->
+      <tr>
+        <td>
+          <table width="100%">
+
+            <!--- Column Class-->
+
+            <tr>
+              <td class="two-columns last">
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <a href="#"><img src="img/palette.jpg" alt="" width="260px" style="max-width: 260px"></a>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+                <!--Add another Table for button-->
+
+                <table class="column">
+                  <tr>
+                    <td class="padding">
+
+                      <table class="content">
+                        <tr>
+                          <td>
+                            <p style="font-size: 17px; font-weight: bold;">
+                              Create Custome Design
+                            </p>
+
+                            <p>
+                              Lorem ipsum dolor
+                              sit amet consectetur m possimus obcaecati asperiores?
+                            </p>
+
+                            <p style="padding-bottom:15px ;">
+                              Lorem ipsum dolor
+                              sit amet consectetur m asperiores?
+                            </p>
+
+                            <a href="#" class="button">Read More</a>
+
+
+                          </td>
+                        </tr>
+                      </table>
+
+                    </td>
+                  </tr>
+                </table>
+
+              </td>
+            </tr>
+
+
+          </table>
+        </td>
+      </tr>
+
+      <!--BLUE BORDER-->
+
+      <tr>
+        <td height="4" style="background-color: #289dcf;"></td>
+      </tr>
+
+      <!--FOOTER-->
+
+      <tr>
+        <td style="background-color: #837c7c; color: aliceblue;">
+          <table width="100%">
+
+            <tr>
+              <td style="text-align: center; padding: 35px 18px;">
+
+                <a href="#"><img src="img/insight-white.png" alt="logo" width="160px"></a>
+
+                <p style="padding: 5px;">Contact Us</p>
+                <a href="#" class="button">SUBSCRIBE</a>
+                <p style="padding: 5px;">123 Avenue Crescent, City, State 426273</p>
+                <p style="padding: 5px;">Tel: 233888900</p>
+                <p style="padding: 5px;">Email: Insights@gmail.com</p>
+
+                <!--Social Media-->
+                <a href="#">
+                  <img src="img/circle-facebook.png" alt="social media" width="30" title="">
+                </a>
+                <a href="#">
+                  <img src="img/circle-facebook.png" alt="social media" width="30" title="">
+                </a>
+                <a href="#">
+                  <img src="img/circle-twitter.png" alt="social media" width="30" title="">
+                </a>
+                <a href="#">
+                  <img src="img/circle-youtube.png" alt="social media" width="30" title="">
+                </a>
+                <a href="#">
+                  <img src="img/circle-instagram.png" alt="social media" width="30" title="">
+                </a>
+                <!---Social Media Ends-->
+
+              </td>
+            </tr>
+
+
+
+          </table>
+        </td>
+      </tr>
 
       <!--Everything should enter here-->
     </table>
-    </td>
-    </tr>
 
+    <!--Final Table for HTML EMAIL Template-->
 
-    <!--BLUE BORDER-->
-    <tr>
-      <td height="10" style="background-color: #289dcf;"></td>
-    </tr>
-
-
-    <!---TWO COLUMN SECTION-->
-    <tr>
-      <td>
-        <table width="100%">
-
-
-        </table>
-      </td>
-    </tr>
-
-    <!--BLUE BORDER-->
-
-    <!--FOOTER-->
-
-    <tr>
-      <td>
-        <table width="100%">
-
-
-        </table>
-      </td>
-    </tr>
-
-    </table>
   </center>
 
 
